@@ -1,0 +1,169 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+
+/* Encabezado */
+header {
+  background-color: #003366;
+  padding: 1rem 0;
+  color: #fff;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+  }
+
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin: 0 1rem;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Imagen destacada */
+.imagen_destacada {
+  text-align: center;
+  padding: 2rem;
+  background-color: #eaeaea;
+
+  img {
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+  }
+
+  figcaption {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #555;
+  }
+}
+
+/* Sección de introducción */
+.introduccion {
+  padding: 2rem;
+  background-color: #fff;
+  margin: 1rem auto;
+  max-width: 1200px;
+  font-size: 1.4rem;
+  border-radius: 8px;
+}
+
+/* Secciones */
+section {
+  padding: 2rem;
+  background-color: #fff;
+  margin: 1rem auto;
+  max-width: 1200px;
+  border-radius: 8px;
+
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style: disc;
+    margin-left: 2rem;
+  }
+
+  p,
+  li {
+    font-size: 1.4rem;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Formulario de Contacto */
+#formulario-contacto {
+  padding: 2rem;
+  background-color: #eaeaea;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: auto;
+
+  label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+
+  input[type="submit"] {
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #002244;
+    }
+  }
+}
